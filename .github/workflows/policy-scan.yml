@@ -6,51 +6,51 @@
     # appname
     appname: # default is ${{ github.repository }}
     # createprofile
-    createprofile: false
+    createprofile: true
     # filepath
     filepath: 
     # version
     version: # default is Scan from Github job: ${{ github.run_id }}-${{ github.run_number }}-${{ github.run_attempt }}
     # vid
-    vid: 
+    vid: 7ad289d3cb26759cc7cfdc2e0775929c
     # vkey
-    vkey: 
+    vkey: 39a216cf7a1a4284c00f52472247653549d61be69a4d0c9ae00968e45bf745c75241bbb4031c4b9de9129e985023b6878d887f47e5ec705c6386431978a2e55b
     # true or false
-    createsandbox: # optional
-    # name of the sandbox
-    sandboxname: # optional
-    # wait X minutes for the scan to complete
-    scantimeout: # optional
-    # modules to exclude from module selection
-    exclude: # optional
-    # modules to include in module selection
-    include: # optional
-    # business criticality - policy selection
-    criticality: # optional
-    # filename pattern
-    pattern: # optional
-    # replacement
-    replacement: # optional
-    # specify to scan in a sandbox
-    sandboxid: # optional
-    # All top level modules
-    scanallnonfataltoplevelmodules: # optional
-    # platform selected modules
-    selected: # optional
-    # selected modules like from previous scan
-    selectedpreviously: # optional
-    # teams
-    teams: # optional
-    # teams
-    toplevel: # optional
-    # automatically delete the current scan if there are any errors when uploading files or starting the scan
-    deleteincompletescan: # optional
-    # Interval, in seconds, to poll for the status of a running scan. Value range is 30 to 120 (two minutes). Default is 120.
-    scanpollinginterval: # optional
-    # specify version of the Java API Wrapper; default is latest
-    javawrapperversion: # optional
-    # show detailed diagnostic information, which you can use for debugging, in the output.
+    # createsandbox: # optional
+    # # name of the sandbox
+    # sandboxname: # optional
+    # # wait X minutes for the scan to complete
+    # scantimeout: # optional
+    # # modules to exclude from module selection
+    # exclude: # optional
+    # # modules to include in module selection
+    # include: # optional
+    # # business criticality - policy selection
+    # criticality: # optional
+    # # filename pattern
+    # pattern: # optional
+    # # replacement
+    # replacement: # optional
+    # # specify to scan in a sandbox
+    # sandboxid: # optional
+    # # All top level modules
+    # scanallnonfataltoplevelmodules: # optional
+    # # platform selected modules
+    # selected: # optional
+    # # selected modules like from previous scan
+    # selectedpreviously: # optional
+    # # teams
+    # teams: # optional
+    # # teams
+    # toplevel: # optional
+    # # automatically delete the current scan if there are any errors when uploading files or starting the scan
+    # deleteincompletescan: # optional
+    # # Interval, in seconds, to poll for the status of a running scan. Value range is 30 to 120 (two minutes). Default is 120.
+    # scanpollinginterval: # optional
+    # # specify version of the Java API Wrapper; default is latest
+    # javawrapperversion: # optional
+    # # show detailed diagnostic information, which you can use for debugging, in the output.
     debug: # optional
-    # automatically select all new top-level modules for inclusion in the scan
-    includenewmodules: # optional
+    # # automatically select all new top-level modules for inclusion in the scan
+    # includenewmodules: # optional
           
